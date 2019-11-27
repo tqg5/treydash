@@ -10,10 +10,6 @@ export function differenceBy(first, ...rest) {
     const it = rest.splice(rest.length -1,1)[0]
     const map = new Map()
 
-    console.log('first:',first)
-    console.log('rest:',rest)
-    console.log('it:',it)
-
     rest.forEach(arr => {
         if(!Array.isArray(arr)) throw new Error('First argument must be an array')
         arr.forEach(val => {
