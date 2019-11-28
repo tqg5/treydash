@@ -4,5 +4,6 @@ export {
     compact,
     concat,
     difference,
-    differenceBy
+    differenceBy,
+    differenceWith
 } from './Array/index.js'
